@@ -17,7 +17,7 @@ jobs:
       id: minecraft
       uses: mcenv/setup-minecraft@v3
       with:
-        version: "1.20.2"
+        version: "1.12.2"
 
     - name: Setup Java
       uses: actions/setup-java@v3
